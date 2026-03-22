@@ -1,9 +1,0 @@
-    4dl | inf=None | SM200203102097/eyeDiseasesDetectionModel | transformers,pytorch,convnext,image-classification,endpoints_compatible
-    3dl | inf=None | NeuronZero/EyeDiseaseClassifier | transformers,safetensors,beit,image-classification,autotrain
-    1dl | inf=None | sebastiansarasti/vit_transformer_eye_disease | transformers,tensorboard,safetensors,vit,image-classification
-    1dl | inf=None | ttangmo24/vit-base-classification-Eye-Diseases | transformers,tensorboard,safetensors,vit,image-classification
-    1dl | inf=None | ttangmo24/vit-base-classification-Eye-Diseases-New02 | transformers,tensorboard,safetensors,vit,image-classification
-    0dl | inf=None | khushpreet/eyedisease | keras,tf-keras,medical,image-classification,arxiv:1910.09700
-    0dl | inf=None | 5t4l1n/ai-eye-disease-detection | med,bio,eye,image-classification,en
-    0dl | inf=None | Ahmed-Selem/Shifaa-Eye-Disease-EfficientNetB0 | biology,medical,image-classification,base_model:google/efficientnet-b0,base_model:finetune:google/efficientnet-b0
-    0dl | inf=None | aliiakbarkhan/eye-disease-detection-model | fastai,biology,medical,image-classification,en
