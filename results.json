@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Retina-DR-ViT",
+    "model": "Kontawat/vit-diabetic-retinopathy-classification",
+    "status": 404,
+    "body": "Not Found"
+  },
+  {
+    "name": "Eye-Disease-All",
+    "model": "ttangmo24/vit-base-classification-Eye-Diseases",
+    "status": 404,
+    "body": "Not Found"
+  },
+  {
+    "name": "Glaucoma-Nzube",
+    "model": "tonyanyanwu5448/nzube-glaucoma-detection-model",
+    "status": 404,
+    "body": "Not Found"
+  },
+  {
+    "name": "Glaucoma-Swin",
+    "model": "pamixsun/swinv2_tiny_for_glaucoma_classification",
+    "status": 410,
+    "body": "{\"error\":\"The requested model is deprecated and no longer supported by provider hf-inference\"}"
+  },
+  {
+    "name": "DR-ArjHacker",
+    "model": "ArjTheHacker/diabetic-retinopathy-detection",
+    "status": 404,
+    "body": "Not Found"
+  },
+  {
+    "name": "Cataract-Resnet",
+    "model": "amanchandra/cataract-resnet18-classifier",
+    "status": 404,
+    "body": "Not Found"
+  },
+  {
+    "name": "DR-Arko",
+    "model": "Arko007/diabetic-retinopathy-v1",
+    "status": 404,
+    "body": "Not Found"
+  }
+]
