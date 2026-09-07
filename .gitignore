@@ -1,77 +1,46 @@
-# Python
+# ═══════════════════════════════════════════════════════════════════════════════
+# SECRETS & ENVIRONMENT VARIABLES
+# ═══════════════════════════════════════════════════════════════════════════════
+.env
+.env.*
+!.env.example
+firebase-credentials.json
+**/firebase-credentials.json
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BACKEND (Python / Flask)
+# ═══════════════════════════════════════════════════════════════════════════════
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Flask
-instance/
-.webassets-cache
-
-# Environment variables
-.env
-.venv
-env/
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
 
-# IDE
+# ═══════════════════════════════════════════════════════════════════════════════
+# FRONTEND (Next.js / Node)
+# ═══════════════════════════════════════════════════════════════════════════════
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+.eslintcache
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ARCHIVES & BUILDS
+# ═══════════════════════════════════════════════════════════════════════════════
+build/
+dist/
+*.zip
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# OS & IDE
+# ═══════════════════════════════════════════════════════════════════════════════
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# Temporary files
-*.tmp
-*.temp
-
-# Uploads (contains user images)
-uploads/
-
-# Model files
-*.pkl
-*.h5
-*.model
-
-# API keys (should never be committed)
-config.json
-secrets.json
-
-# SQLite database
-*.db
-*.sqlite
-*.sqlite3
-
-# Google Service Account credentials
-credentials.json
